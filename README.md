@@ -1,5 +1,6 @@
 # CNN-Brain-MRI-Slice-Classification-
-Developed patient-level CNN pipeline on ~80K MRI slices using subject-stratified validation to prevent data leakage; fine-tuned a pretrained ResNet model to achieve 91.6% weighted test accuracy, demonstrating robust performance against published benchmarks under real-world conditions.
+Built a patient-level CNN pipeline for brain MRI slice classification using ~80K images, with subject-stratified splits to avoid data leakage. By fine-tuning a pre-trained ResNet model, acheived 91.6% weighted test accuracy, demonstrating strong and reliable performance for clinical and hospital decision-support use cases.
+
 
 
 
