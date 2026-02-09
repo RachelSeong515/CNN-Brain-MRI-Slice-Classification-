@@ -30,7 +30,6 @@ Our model achieved its best generalization performance with a validation accurac
 
 Performance varied across classes, reflecting the inherent imbalance in dementia datasets. The dominant class was modeled extremely well, while minority classes showed lower precision and recall — a known and expected challenge in medical classification problems. Importantly, recall for dementia-positive classes remained strong, which is critical in clinical contexts where false negatives carry higher risk than false positives. The confusion matrix confirms that most errors occur between adjacent dementia severity levels, indicating clinically plausible misclassifications rather than random failure .
 
-Compared to prior benchmarks that used subject-level splits on the same OASIS dataset (reporting test accuracies around 64–67%), this model demonstrates substantially stronger generalization under realistic evaluation conditions .
 
 # Business Implications
 
